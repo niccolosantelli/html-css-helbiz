@@ -1,0 +1,110 @@
+
+body{
+  font-style: sans-serif;
+}
+
+.mr_20{
+  margin-right: 20px;
+}
+.pr_1{
+  padding-right: 1rem;
+}
+.pl_1{
+  padding-left: 1rem;
+}
+
+.mt_20{
+  margin-top: 20px;
+}
+
+.mb_20{
+  margin-bottom: 20px;
+}
+
+
+
+header{
+  height: 500px;
+  color: white;
+  background-image: url(../img/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+header a{
+  color: white;
+}
+nav{
+  height: 80px;
+  line-height: 80px;
+}
+nav a{
+  padding: 0 10px;
+}
+.header_menu{
+  text-align: right;
+}
+.list_inline li{
+  list-style: none;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+.header_menu, .header_langs{
+  font-size: 0.55rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header_langs li:not(:last-child) a{
+  border-right: 1px solid white;
+}
+.hero_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+}
+.hero_text h1{
+  font-size: 2.5rem;
+}
+.hero_text p{
+  margin: 20px 0 10px 0;
+}
+.hero_text img{
+  height: 80px;
+
+}
+
+#models{
+  display: block;
+}
+
+#models{
+  padding: 2rem;
+}
+#models .card{
+  text-align: center;
+  background-color: #fafafa;
+}
+#models .card h2{
+  padding-top: 80px;
+}
+#models .card img{
+ max-width: 100%;
+ max-height: 10%;
+}
+
+.sfondo_iphone{
+  height: 350px;
+  background-image: url(../img/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.col-lg-4 img{
+  height: 500px;
+  margin-top: -250px;
+}
